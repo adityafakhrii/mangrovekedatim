@@ -45,7 +45,7 @@
 	</nav>
 	<!-- END nav -->
 	
-	<div class="hero-wrap js-fullheight" style="background-image: url('images/1.jpg');">
+	<!-- <div class="hero-wrap js-fullheight" style="background-image: url('images/1.jpg');">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
@@ -59,7 +59,65 @@
 				</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<div class="hero-wrap js-fullheight" style="background-image: url('images/1.jpg');">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+							<div class="col-md-7 ftco-animate">
+								<span class="subheading">Welcome to</span>
+								<h1 class="mb-4">Wisata Mangrove Kedatim</h1>
+								<p class="caps">Jelajahi Keindahan Alami Mangrove Kedatim: Wisata Hijau, Udara Segar, dan Petualangan Seru!</p>
+							</div>
+							<a href="https://www.youtube.com/watch?v=CeaIxL1t5Yw" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+								<span class="fa fa-play"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="hero-wrap js-fullheight" style="background-image: url('images/2.jpg');">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+							<div class="col-md-7 ftco-animate">
+								<span class="subheading">Welcome to</span>
+								<h1 class="mb-4">Pesona Alam Mangrove Kedatim</h1>
+								<p class="caps">Temukan ketenangan di tengah hijaunya hutan mangrove yang menyejukkan!</p>
+							</div>
+							<a href="https://www.youtube.com/watch?v=CeaIxL1t5Yw" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+								<span class="fa fa-play"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="hero-wrap js-fullheight" style="background-image: url('images/4.jpg');">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+							<div class="col-md-7 ftco-animate">
+								<span class="subheading">Welcome to</span>
+								<h1 class="mb-4">Petualangan Seru di Wisata Mangrove</h1>
+								<p class="caps">Siap untuk menjelajah dan merasakan keajaiban alam Mangrove Kedatim?</p>
+							</div>
+							<a href="https://www.youtube.com/watch?v=CeaIxL1t5Yw" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+								<span class="fa fa-play"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	
 
 		<section class="ftco-section services-section mt-5">
 			<div class="container">
@@ -437,6 +495,19 @@
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 			<script src="js/google-map.js"></script>
 			<script src="js/main.js"></script>
+
+			<script>
+				$(document).ready(function(){
+				  $(".owl-carousel").owlCarousel({
+					items: 1,
+					loop: true,
+					autoplay: true,
+					autoplayTimeout: 2800,
+					nav: true,
+					dots: true
+				  });
+				});
+			</script>			
 			
 		</body>
 		</html>
